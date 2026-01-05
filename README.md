@@ -1,28 +1,26 @@
-# Telecom Churn Survival Analysis 
+# Telecom Churn Survival Analysis
 
-Predicts **when** customers churn (not just who) using Cox Proportional Hazards model.
+Predicts **when** customers churn using Cox Proportional Hazards (C-index **0.846**). Business insights: Fiber Optic + e-check = high risk.
 
-## Results That Matter
-| Metric | Score |
-|--------|-------|
-| **Test C-Index** | **0.846** |
-| **CV C-Index** | **0.858** |
-| **12mo Calibration (ICI)** | **0.020** |
+## Results Table
+| Metric          | Score    | Insight                     |
+|-----------------|----------|-----------------------------|
+| **Test C-Index**| **0.846** | Model reliability           |
+| **CV C-Index**  | **0.858** | Cross-validated stability   |
+| Dataset         | 7043 customers | Kaggle Telco (tenure/Churn) |
 
-**Business Gold**: 
-- Month-to-month + Fiber optic = **1.38× churn risk** ⚠️
-- TechSupport/OnlineBackup = **protective (HR 0.58-0.65)** 
+![Survival Curves](survival.png)
+![Cox Hazards](hazards.png)
 
-## What I Did
-1. Cleaned Telco dataset (7k customers, tenure=0 fix)
-2. Train/test split + 5-fold CV
-3. CoxPH model with penalizer for stability
-4. Kaplan-Meier curves + hazard ratio forest
-5. Calibration plots proving reliability
+## Key Insights
+- **Churn Bombs:** Month-to-month + Fiber Optic (HR ~1.4)
+- **Retention Wins:** TechSupport + 2yr contracts (HR <0.7)
+- **Action:** Target month 6 interventions → Save $XM LTV
 
-## Run It
-[
-
-## Tech Stack
-Python | lifelines | pandas | scikit-learn | matplotlib/seaborn
+## Run Locally
+```bash
+git clone https://github.com/Tanishka-001/telecom-churn-survival-analysis
+cd telecom-churn-survival-analysis
+pip install -r requirements.txt
+jupyter notebook churn_survival_analysis.ipynb
 
