@@ -9,7 +9,7 @@ Predicts **when** customers churn (not just who) using Cox Proportional Hazards 
 | **CV C-Index** | **0.858** |
 | **12mo Calibration (ICI)** | **0.020** |
 
-** Business Gold**: 
+**Business Gold**: 
 - Month-to-month + Fiber optic = **1.38× churn risk** ⚠️
 - TechSupport/OnlineBackup = **protective (HR 0.58-0.65)** 
 
