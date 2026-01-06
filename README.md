@@ -4,13 +4,14 @@
 
 ## Dataset : [![Kaggle](https://img.shields.io/badge/Dataset-Telco%20Churn-blue)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-[Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
+## Colab   :  [![Colab Notebook](https://colab.research.google.com/drive/1b5pgpRjTIR0u3yb4gzoqxlZaW8sYDhjz?usp=sharing)
 
 ## Business Problem
-Telcos lose $X billion/year to churn. Basic models flag *who* leaves. **We predict tenure + rank risks**:
-- Month-to-month: **2.27x churn speed** (HR)
-- Fiber optic: **1.38x risk**
-- 2-year contracts: **0.69x risk** (protective)
+Telcos lose $38B/year to churn. Basic models flag *who* leaves. **Predict tenure + rank risks**:
+- **Electronic check**: **1.56x churn risk** (top killer)
+- **Fiber optic**: **1.38x risk** 
+- **2-year contracts**: **0.31x risk** (69% protective)
+
 
 **ROI**: Target high-HR customers first → extend LTV 30%+.
 
