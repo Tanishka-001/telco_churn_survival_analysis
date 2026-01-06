@@ -31,14 +31,14 @@ Telcos lose $X billion/year to churn. Basic models flag *who* leaves. **We predi
 ![image alt]()
 
 
-## 🛠️ How It Works
+## How It Works
 1. **Kaplan-Meier**: Visual retention curves (by contract/service).
 2. **CoxPH Model**: HRs from tenure/Churn + 21 features (Kaggle Telco dataset).
 3. **Prioritization**: HR >1.5 = "Red Alert" retention campaigns.
 
 **Deploy-ready**: Pickle model + summary CSV exported.
 
-## 🚀 Quick Demo
+## Quick Demo
 ```python
 # Load model
 import pickle
