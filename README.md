@@ -18,7 +18,9 @@ Telcos lose $X billion/year to churn. Basic models flag *who* leaves. **We predi
 | CV C-Index     | **0.858** | Robust, no overfitting         |
 | Median Lifetime| **10 months** | Global retention baseline    |
 
-**Global Survival Curve** ![image alt](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/44f823044c46bc2f791c232d93da1bb3a1009d65/survival_curve.png)
+**Global Survival Curve** 
+
+![image alt](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/44f823044c46bc2f791c232d93da1bb3a1009d65/survival_curve.png)
 
 ![Cox Forest Plot (HRs)](cox_forest.png)
 ![Hazards Table](cox_hazards.png)
