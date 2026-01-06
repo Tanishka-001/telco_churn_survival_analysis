@@ -28,7 +28,7 @@ Telcos lose $X billion/year to churn. Basic models flag *who* leaves. **We predi
 
 **Hazards Table**
 
-![image alt]()
+![image alt](https://github.com/Tanishka-001/telecom_churn_survival_analysis/blob/04ab786f8cc850226c303ea0bc48c1ef81750882/Hazard%20Table.png)
 
 
 ## How It Works
