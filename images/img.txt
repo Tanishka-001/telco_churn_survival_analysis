@@ -1,0 +1,4 @@
+It has all the 3 png's 
+1. hazard table 
+2.cox forest 
+3.survival curve
